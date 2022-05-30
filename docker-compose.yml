@@ -1,0 +1,22 @@
+# based on https://github.com/heckenmann/dse-docker-compose/blob/master/docker-compose.yml
+version: '3.8'
+
+services:
+  dse:
+    image: datastax/dse-server:6.8.13
+    hostname: dse
+    container_name: gdotv-dse
+    environment:
+      - "DS_LICENSE=accept"
+      - "SEEDS=dse"
+    command: [
+      "-g"
+    ]
+    cap_add:
+      - IPC_LOCK
+    ulimits:
+      memlock: -1
+    ports:
+      - "9042:9042"
+      - "8182:8182"
+
