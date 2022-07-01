@@ -1,5 +1,9 @@
+# DSE Graph in G.V() IDE
+![image](https://user-images.githubusercontent.com/22231483/176893797-afded06b-e5c2-41c4-8b1a-8a1fde6ee922.png)
 
+See full blog post here: [https://blog.anant.us/dse-graph-in-g-v-ide/](https://blog.anant.us/dse-graph-in-g-v-ide/).
 
+## Instructions
 Clone the Graph Book Repo somewhere, which we will use for its sample data (specifically, from chapter four)
 
 ```
